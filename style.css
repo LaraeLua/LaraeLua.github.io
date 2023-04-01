@@ -7,132 +7,153 @@ body{
 
 L{
     position: absolute;
-left: 28.19%;
-right: 52.36%;
-top: 6.75%;
-bottom: 89.6%;
+    left: 28%;
+    top: 45%;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 96px;
-line-height: 144px;
-/* identical to box height */
-
-
-color: #FFFFFF;
-
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 144px;
+    color: #FFFFFF;
 }
 
 Lu{
     position: absolute;
-left: 53.12%;
-right: 22.22%;
-top: 6.7%;
-bottom: 89.65%;
+    right: 25%;
+    top: 45%;
+    bottom: 89.65%;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 96px;
-line-height: 144px;
-/* identical to box height */
-
-
-color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 144px;
+    color: #FFFFFF;
 }
 
 e{
     position: absolute;
-left: 47.64%;
-right: 49.31%;
-top: 19%;
-bottom: 87%;
+    left: 47.64%;
+    right: 49.31%;
+    top: 52%;
+    bottom: 87%;
 
-font-family: 'KoHo';
-font-style: normal;
-font-weight: 600;
-font-size: 55px;
-line-height: 72px;
-/* identical to box height */
-
-
-color: #AB74E2;
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 72px;
+    color: #AB74E2;
 
 }
 
 header{
     position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 90%;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 88%;
 
-background: #2F1E4A;
-box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.5);
+    background: #2F1E4A;
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.5);
 }
 
 .Lara{
     position: absolute;
-left: 0.9%;
-right: 0.9%;
-top: 22.1%;
-bottom: 65.82%;
+    top: 100%;
+    width: 100%;
+    height: 40%;
 
-background: #5A3A79;
-border-radius: 75px;
+    background: #5A3A79;
+    border-radius: 75px;
 }
 
 .rt1{
     position: absolute;
-left: 39.04%;
-right: 7.21%;
-top: 7.98%;
-bottom: 19.12%;
+    left: 39.04%;
+    right: 7.21%;
+    top: 7.98%;
+    bottom: 19.12%;
 
-background: #FFFFFF;
-border-radius: 17px;
+    background: #FFFFFF;
+    border-radius: 17px;
 }
 .sombra1{
     position: absolute;
-left: 41.73%;
-right: 4.53%;
-top: 18.91%;
-bottom: 8.19%;
+    left: 41.73%;
+    right: 4.53%;
+    top: 18.91%;
+    bottom: 8.19%;
+    width: 53%;
 
-background: #46206B;
-border-radius: 17px;
+    background: #46206B;
+    border-radius: 17px;
 }
 
 .Luana{
     position: absolute;
-left: 0.9%;
-right: 0.9%;
-top: 34.48%;
-bottom: 53.44%;
+    top: 142%;
+    width: 100%;
+    height: 40%;
 
-background: #5A3A79;
-border-radius: 75px;
+    background: #5A3A79;
+    border-radius: 75px;
 }
+    
 
 .rt2{
     position: absolute;
-    left: 38.33%;
-    right: 8.89%;
-    top: 35.5%;
-    bottom: 55.7%;
-    
+    left: 39.04%;
+    right: 7.21%;
+    top: 7.98%;
+    bottom: 19.12%;
+
     background: #FFFFFF;
     border-radius: 17px;
 }
 
 .sombra2{
     position: absolute;
-    left: 40.97%;
-    right: 6.25%;
-    top: 36.82%;
-    bottom: 54.38%;
-    
+    left: 41.73%;
+    right: 4.53%;
+    top: 18.91%;
+    bottom: 8.19%;
+    width: 53%;
+
     background: #46206B;
     border-radius: 17px;
+}
+
+.Lainfo{
+    position: absolute;
+    left: 15.62%;
+    right: 76.6%;
+    top: 80%;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    
+    color: #fdfdfd;
+}
+
+.Luinfo{
+    position: absolute;
+    left: 14%;
+    top: 80%;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    
+    color: #fdfdfd;
 }
