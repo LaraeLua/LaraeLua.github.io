@@ -127,8 +127,7 @@ header{
 
 .Lainfo{
     position: absolute;
-    left: 15.62%;
-    right: 76.6%;
+    left: 14.80%;
     top: 80%;
     
     font-family: 'Poppins';
@@ -136,9 +135,6 @@ header{
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
-    /* identical to box height */
-    
-    
     color: #fdfdfd;
 }
 
@@ -151,9 +147,89 @@ header{
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 30px;
-    /* identical to box height */
-    
-    
+    line-height: 30px; 
     color: #fdfdfd;
 }
+
+.Desenvolvimento{
+    position: absolute;
+    top: 200%;
+    width: 45%;
+    height: 40%;
+
+    background: #5A3A79;
+    border-radius: 75px;
+}
+.Design{
+    position: absolute;
+    top: 241%;
+    width: 45%;
+    height: 40%;
+
+    background: #5A3A79;
+    border-radius: 75px;
+}
+.Redes{
+    position: absolute;
+    top: 282%;
+    width: 45%;
+    height: 40%;
+
+    background: #5A3A79;
+    border-radius: 75px;
+}
+.Robotica{
+    position: absolute;
+    top: 323%;
+    width: 45%;
+    height: 40%;
+
+    background: #5A3A79;
+    border-radius: 75px;
+}
+
+.Desenvolvimentoinfo{
+    position: absolute;
+    top: 200%;
+    left: 45%;
+    width: 54%;
+    height: 40%;
+    border: 2px solid #fdfdfd;
+    background: #0f0a29;
+    border-radius: 75px;
+}
+
+.Designinfo{
+    position: absolute;
+    top: 241%;
+    left: 45%;
+    width: 54%;
+    height: 40%;
+    border: 2px solid #fdfdfd;
+    background: #0f0a29;
+    border-radius: 75px;
+}
+
+.Redesinfo{
+    position: absolute;
+    top: 282%;
+    left: 45%;
+    width: 54%;
+    height: 40%;
+    border: 2px solid #fdfdfd;
+    background: #0f0a29;
+    border-radius: 75px;
+}
+
+.Roboticainfo{
+    position: absolute;
+    top: 323%;
+    left: 45%;
+    width: 54%;
+    height: 40%;
+    border: 2px solid #fdfdfd;
+    background: #0f0a29;
+    border-radius: 75px;
+
+}
+
