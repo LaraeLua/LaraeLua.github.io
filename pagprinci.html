@@ -1,9 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css"
+rel="stylesheet"
+/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -113,7 +130,7 @@
     <center><L>Lara</L><e>&</e><Lu>Luana</Lu></center>
 
 
-    <div class="Lara">
+    <div class="Lara" data-aos="fade-up">
         <img src="" alt="">
          <div class="Lainfo">Lara Evelyn</div>
         
@@ -122,7 +139,7 @@
 
     </div>
 
-    <div class="Luana">
+    <div class="Luana" data-aos="fade-up">
         <img src="" alt="">
         <div class="Luinfo" >Luana Hevillyn</div> 
 
@@ -131,10 +148,13 @@
 
     </div>
 
+    <div class="rds" data-aos="fade-down">basjlcalclajcjlasc</div>
+
 
     <div class="projetos">
 
-        <div class="Desenvolvimento"> <t style="position: absolute;
+        <div class="Desenvolvimento" data-aos="fade-left" > 
+            <t style="position: absolute;
             right: 18%;
             top: 45%;
             
@@ -143,22 +163,13 @@
             font-weight: 700;
             font-size: 50px;
             line-height: 30px;
-            color: #fdfdfd;"> Desenvolvimento</t>
+            color: #fdfdfd;">Desenvolvimento</a></t>
         </div>
 
-        <div class="Desenvolvimentoinfo"><t style="position: absolute;
-            left: 5%;
-            top: 45%;
-            
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 30px;
-            line-height: 30px;
-            color: #fdfdfd;">Urna Eletrônica, Tela de Login, Jogo da Velha</t>
-        </div>
+
  
-        <div class="Design"> <t style="position: absolute;
+        <div class="Design" data-aos="fade-left"> 
+            <t style="position: absolute;
             right: 38%;
             top: 45%;
             
@@ -170,19 +181,10 @@
             color: #fdfdfd;">Design</t>
         </div>
 
-        <div class="Designinfo"><t style="position: absolute;
-            left: 25%;
-            top: 45%;
-            
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 30px;
-            line-height: 30px;
-            color: #fdfdfd;">Logotipo, Site, Panfletos</t></div>
-        </div>
 
-        <div class="Redes"><t style="position: absolute;
+
+        <div class="Redes" data-aos="fade-left">
+            <t style="position: absolute;
             right: 40%;
             top: 45%;
             
@@ -194,19 +196,10 @@
             color: #fdfdfd;">Redes</t>
         </div>
 
-        <div class="Redesinfo"><t style="position: absolute;
-            left: 25%;
-            top: 45%;
-            
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 30px;
-            line-height: 30px;
-            color: #fdfdfd;">HTTPS,</t></div>
-        </div>
 
-        <div class="Robotica"><t style="position: absolute;
+
+        <div class="Robotica" data-aos="fade-left">
+            <t style="position: absolute;
             right: 35%;
             top: 45%;
             
@@ -218,8 +211,82 @@
             color: #fdfdfd;">Robótica</t></div>
 
 
-        <div class="Roboticainfo"><t style="position: absolute;
-            left: 25%;
+        <div class="Desenvolvimentoinfo" data-aos="fade-right">          
+          <a href="urna.html" style="position: absolute;
+          left: 5%;
+          top: 45%;
+          
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 30px;
+          line-height: 30px;
+          color: #fdfdfd; text-decoration: none;"> Urna Eletrônica,</a> 
+
+          <a href="login.html" style="position: absolute;
+          left: 37%;
+          top: 45%;
+          
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 30px;
+          line-height: 30px;
+          color: #fdfdfd; text-decoration: none;"> Tela de Login,</a>
+
+          <a href="jogo.html"  style="position: absolute;
+          left: 65%;
+          top: 45%;
+          
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 30px;
+          line-height: 30px;
+          color: #fdfdfd; text-decoration: none;">  Jogo da Velha</t></a>
+        </div>
+
+
+
+        <div class="Designinfo" data-aos="fade-right">
+            <a href="logotipos.html" style="position: absolute;
+          left: 20%;
+          top: 45%;
+          
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 30px;
+          line-height: 30px;
+          color: #fdfdfd; text-decoration: none;">Logotipos,</a> 
+
+          <a href="sites.html" style="position: absolute;
+          left: 42%;
+          top: 45%;
+          
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 30px;
+          line-height: 30px;
+          color: #fdfdfd; text-decoration: none;">Sites,</a>
+
+          <a href="panfletos.html"  style="position: absolute;
+          left: 54%;
+          top: 45%;
+          
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 30px;
+          line-height: 30px;
+          color: #fdfdfd; text-decoration: none;">Panfletos</t></a>
+        </div>
+
+
+        <div class="Redesinfo" data-aos="fade-right">
+            <a href="https.html" style="position: absolute;
+            left: 15%;
             top: 45%;
             
             font-family: 'Poppins';
@@ -227,7 +294,66 @@
             font-weight: 400;
             font-size: 30px;
             line-height: 30px;
-            color: #fdfdfd;">Garra Mecânica, Led, Buzzer</t></div>
+            color: #fdfdfd; text-decoration: none;">HTTPS,</a></div>
+
+
+        <div class="Roboticainfo" data-aos="fade-right">
+            <a href="garramec.html" style="position: absolute;
+          left: 20%;
+          top: 45%;
+          
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 30px;
+          line-height: 30px;
+          color: #fdfdfd; text-decoration: none;">Garra Mecânica,</a>
+            
+            <a href="led.html" style="position: absolute;
+          left: 55%;
+          top: 45%;
+          
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 30px;
+          line-height: 30px;
+          color: #fdfdfd; text-decoration: none;">Led,</a>
+
+          <a href="buzzer.html"  style="position: absolute;
+          left: 65%;
+          top: 45%;
+          
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 30px;
+          line-height: 30px;
+          color: #fdfdfd; text-decoration: none;">Buzzer</t></a>
+        </div>
+
+        </div>
+
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+
+
+        <span id="mouse"></span>
+
+        <div class="footer">
+            <t>Lara e Luana</t>
+            <t>Projetos</t>
+            <t style="          
+            left: 90%;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 30px;
+            color: #fdfdfd;">Redes Sociais</t>
         </div>
 </body>
 </html>
