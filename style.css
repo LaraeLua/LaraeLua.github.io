@@ -1,7 +1,8 @@
 body{
     position: absolute;
     width: 100%;
-    background: #1C153F 100%;
+    background: #2F1E4A;
+
 }
 
 L{
@@ -42,6 +43,7 @@ e{
     font-size: 55px;
     line-height: 72px;
     color: #AB74E2;
+
 }
 
 header{
@@ -49,10 +51,34 @@ header{
     left: 0%;
     right: 0%;
     top: 0%;
-    bottom: 88%;
+    bottom: 85%;
 
     background: #2F1E4A;
     box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.5);
+}
+
+header a{
+    top: 30%;
+        
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+header img{
+    border-radius: 250px; 
+        box-sizing: border-box;  
+        position: absolute;  
+        width: 70px;  
+        height: 70px; 
+        left: 13%;  
+        top: 15%;  
+        border: 1px solid #FFFFFF
 }
 
 .Lara{
@@ -200,12 +226,12 @@ header{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 30px;
     color: #fdfdfd;
 }
 
-.Designinfo{
+.Designinfo button{
     position: absolute;
     top: 261%;
     left: 45%;
@@ -214,10 +240,16 @@ header{
     border: 2px solid #530080;
     background: #0f0a29;
     border-radius: 75px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 30px;
+    color: #fdfdfd;
 }
 
 
-.Roboticainfo{
+.Roboticainfo button{
     position: absolute;
     top: 302%;
     left: 45%;
@@ -226,7 +258,12 @@ header{
     border: 2px solid #530080;
     background: #0f0a29;
     border-radius: 75px;
-
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 30px;
+    color: #fdfdfd;
 }
 
 
@@ -274,6 +311,16 @@ footer{
     background-color: #0f0a29;
 }
 
+footer t{
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #fdfdfd; text-decoration: none;
+}
+
 .fotinfo{
     width: 100%;
     height: 100%;
@@ -282,7 +329,7 @@ footer{
 }
 
 .ftresq{
-    top: 50%;
+    top: 35%;
     position: absolute;
     left: 10%;
     
@@ -291,38 +338,34 @@ footer{
     font-weight: 400;
     font-size: 30px;
     line-height: 30px;
-    color: #fdfdfd; text-decoration: none;
+    color: #fdfdfd; 
+    text-decoration: none;
+    text-align: left;
 }
 
-.ftrcent{
+.ftrcent {
     width: 26%;
     top: 10%;
     height: 90%;
     position: absolute;
     left: 50%;
+
 }
-.ftresq{
-    top: 50%;
+
+.ftrcent a{
     position: absolute;
-    left: 10%;
-    
+    left: 0%;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
+    font-weight: 200;
+    font-size: 20px;
     line-height: 30px;
-    color: #fdfdfd; text-decoration: none;
-}
-
-.ftrcent{
-    width: 26%;
-    top: 10%;
-    height: 90%;
-    position: absolute;
-    left: 50%;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .ftrdir{
+
     width: 26%;
     top: 10%;
     height: 90%;
@@ -330,8 +373,45 @@ footer{
     left: 74%;
 }
 
+.ftrdir a{
+    
+    position: absolute;
+    left: 0%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.projetos a{
+    position: absolute;
+    top: 45%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #fdfdfd; text-decoration: none;
+}
+
+.projetos t{
+    position: absolute;
+    top: 45%;      
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 30px;
+    color: #fdfdfd;
+}
+
 .desenvolvimentodiv{
     display: none;
+    opacity: 1;
+    transition: opacity .5s linear;
     position: absolute;
     top: 261%;
     right: 0.1%;
@@ -345,11 +425,31 @@ footer{
 .designdiv{
     display: none;
     position: absolute;
-    top: 261%;
+    top: 302%;
     right: 0.1%;
     width: 100%;
     height: 40%;
     border: 2px solid #530080;
     background: #0f0a29;
     border-radius: 75px;
+}
+
+.robotdiv{
+    display: none;
+    position: absolute;
+    top: 343%;
+    right: 0.1%;
+    width: 100%;
+    height: 40%;
+    border: 2px solid #530080;
+    background: #0f0a29;
+    border-radius: 75px;
+}
+
+.robotdiv img:hover :not(:hover){
+opacity: 0.3;
+}
+
+.robotdiv img:hover{
+scale: 1.1;
 }
