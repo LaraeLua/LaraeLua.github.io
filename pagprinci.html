@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -15,102 +13,17 @@
     <style>html, body {height: 100%; margin: 0; padding: 0;}</style>
     <title>Portfólio</title>
 </head>
+
 <body>
+
     <header>
-        <img src="logoLL.png" 
-        style="border-radius: 250px; 
-        box-sizing: border-box;  
-        position: absolute;  
-        width: 70px;  
-        height: 70px; 
-        left: 13%;  
-        top: 15%;  
-        border: 1px solid #FFFFFF">
-
-        <a href="home.html" style="position: absolute;
-        left: 39.31%;
-        right: 56.46%;
-        top: 25px;
-        text-decoration: none;
-        
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 200;
-        font-size: 20px;
-        line-height: 30px;  
-        color: #FFFFFF;
-        ">Home</a>
-
-
-        <a href="sobrenos.html" style="position: absolute;
-        left: 46.74%;
-        top: 25px;
-        
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 200;
-        font-size: 20px;
-        line-height: 30px;
-        text-decoration: none;
-        color: #FFFFFF;
-        ">Sobre nós</a>
-
-
-        <a href="desenvolvimento.html" style="position: absolute;
-        left: 58.33%;
-        right: 29.24%;
-        top: 25px;
-        
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 200;
-        font-size: 20px;
-        line-height: 30px;
-        text-decoration: none;
-        color: #FFFFFF;">Desenvolvimento</a>
-
-
-        <a href="robotica.html" style="position: absolute;
-        left: 72.78%;
-        right: 20.9%;
-        top: 25px;
-        
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 200;
-        font-size: 20px;
-        line-height: 30px;
-        text-decoration: none;
-        color: #FFFFFF;
-        " >Robótica</a>
-
-
-        <a href="redes.html" style="position: absolute;
-        left: 81.53%;
-        right: 13.61%;
-        top: 25px;
-        
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 200;
-        font-size: 20px;
-        line-height: 30px;
-        text-decoration: none;
-        color: #FFFFFF;" >Redes</a>
-
-
-        <a href="design.html" style="position: absolute;
-        left: 88.06%;
-        right: 7.64%;
-        top: 25px;
-        
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 200;
-        font-size: 20px;
-        line-height: 30px;
-        text-decoration: none;
-        color: #FFFFFF;" >Design</a>
+        <img src="logoLL.png" >
+        <a href="home.html" style="left: 39.31%; right: 56.46%;">Home</a>
+        <a href="sobrenos.html" style="left: 46.74%;">Sobre nós</a>
+        <a href="desenvolvimento.html" style="left: 58.33%; right: 29.24%;">Desenvolvimento</a>
+        <a href="robotica.html" style="left: 72.78%; right: 20.9%;" >Robótica</a>
+        <a href="redes.html" style="left: 81.53%; right: 13.61%;" >Redes</a>
+        <a href="design.html" style="left: 88.06%;" >Design</a>
     </header>
 
 
@@ -140,99 +53,55 @@
 
     <div class="projetos">
 
-        <div class="Desenvolvimento" data-aos="fade-left" > 
-            <t style="position: absolute;
-            right: 18%;
-            top: 45%;
-            
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 50px;
-            line-height: 30px;
-            color: #fdfdfd;">Desenvolvimento</a></t>
-        </div>
+                    <div class="Desenvolvimento" data-aos="fade-left" > 
+                        <t style=" right: 18%; ">Desenvolvimento</a></t>
+                    </div>
 
+                    <div class="Design" data-aos="fade-left"> 
+                        <t style="right: 38%;">Design</t>
+                    </div>
 
- 
-        <div class="Design" data-aos="fade-left"> 
-            <t style="position: absolute;
-            right: 38%;
-            top: 45%;
-            
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 50px;
-            line-height: 30px;
-            color: #fdfdfd;">Design</t>
-        </div>
+                    <div class="Robotica" data-aos="fade-left">
+                        <t style=" right: 35%;">Robótica</t>
+                    </div>
 
+                    <div class="Desenvolvimentoinfo">
+                        <button onclick="ProjetoDesenv('Desenv')" data-aos="fade-right" >Urna Eletrônica, Login com Java, Jogo da Velha</button>
+                        <div id="Desenv" class="desenvolvimentodiv">
+                            <img src="Ft1Desenv.png">
+                            <img src="Ft2Desenv.png">
+                            <img src="Cadastro1.png">
+                            <img src="Cadastro2.png">
+                        </div>
+                    </div>
 
+                    <div class="Designinfo">
+                        <button onclick="ProjetoDesign('Design')" id="Designinfo2" data-aos="fade-right">Logotipos, Sites e Panfletos</button>
+                        <div id="Design" class="designdiv" data-aos="fade-up">
+                            <img src="LogoRest.png">
+                            <img src="LogoLua.png">
+                            <img src="LogoLara.png">
+                            <img src="LogoHamb.png">
+                            <img src="logoLL.png">
+                            <img src="tabaco.png">
 
-        <div class="Robotica" data-aos="fade-left">
-            <t style="position: absolute;
-            right: 35%;
-            top: 45%;
-            
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 50px;
-            line-height: 30px;
-            color: #fdfdfd;">Robótica</t></div>
-    
-            <div class="Desenvolvimentoinfo">
-                <button onclick="ProjetoDesenv('Desenv')" data-aos="fade-right">Urna Eletrônica, Login com Java, Jogo da Velha</button>
-                <div id="Desenv" class="desenvolvimentodiv">DIVVVVVVVVVVVVVVVV</div>
-            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="Roboticainfo">
+                            <button onclick="ProjetoRobot('robot')" id='robot2'  data-aos="fade-right">Garra Mecânica, Led, Buzzer</button>
+                            <div id="robot" class="robotdiv" data-aos="fade-up">
+                                <img src="robotica1.png" id="img1">
+                                <img src="robotica2.png">
+                                <img src="robotica3.png">
+                                <img src="robotica4.png">
 
-                
-        <div class="Designinfo" data-aos="fade-right">
-            <button onclick="ProjetoDesign('Design')" data-aos="fade-right">Logotipos, Sites e Panfletos</button>
-            <div id="Design" class="designdiv">DIVVVVVVVVVVVVVVVV</div>
-        </div>
+                            </div>
 
+                        
+                    </div>
 
-        <div class="Roboticainfo" data-aos="fade-right">
-            <a href="garramec.html" style="position: absolute;
-          left: 28%;
-          top: 45%;
-          
-          font-family: 'Poppins';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 30px;
-          line-height: 30px;
-          color: #fdfdfd; text-decoration: none;">Garra Mecânica,</a>
-            
-            <a href="led.html" style="position: absolute;
-          left: 54%;
-          top: 45%;
-          
-          font-family: 'Poppins';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 30px;
-          line-height: 30px;
-          color: #fdfdfd; text-decoration: none;">Led,</a>
-
-          <a href="buzzer.html"  style="position: absolute;
-          left: 62%;
-          top: 45%;
-          
-          font-family: 'Poppins';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 30px;
-          line-height: 30px;
-          color: #fdfdfd; text-decoration: none;">Buzzer</t></a>
-        </div>
-
-
-
-
-
+    </div>
 
         <span id="mouse"></span>
 
@@ -240,172 +109,36 @@
 
             <div class="fotinfo">
                     <div class="ftresq">
-                        <t>Lara & Luana</t>
-
-
+                        <t style="left: 10%;">Lara & Luana</t>
                     </div>
                     
                     <div class="ftrcent">
-                        <t style="
-                        left: 4%;    
-                        position: absolute;
-                        font-family: 'Poppins';
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 30px;
-                        line-height: 30px;
-                        color: #fdfdfd; text-decoration: none;">Projetos</t>
-
-                                <a href="desenvolvimento.html" style="
-
-                                top: 20%;
-                                position: absolute;
-                                left: 0%;
-                                font-family: 'Poppins';
-                                font-style: normal;
-                                font-weight: 200;
-                                font-size: 20px;
-                                line-height: 30px;
-                                text-decoration: none;
-                                color: #FFFFFF;">Desenvolvimento</a>
-
-
-                                <a href="robotica.html" style="position: absolute;
-                                
-
-                                top: 35%;
-                                left: 8%;
-                                font-family: 'Poppins';
-                                font-style: normal;
-                                font-weight: 200;
-                                font-size: 20px;
-                                line-height: 30px;
-                                text-decoration: none;
-                                color: #FFFFFF;
-                                " >Robótica</a>
-
-
-                                <a href="redes.html" style="position: absolute;
-
-
-                                top: 50%;
-                                left: 12%;
-                                font-family: 'Poppins';
-                                font-style: normal;
-                                font-weight: 200;
-                                font-size: 20px;
-                                line-height: 30px;
-                                text-decoration: none;
-                                color: #FFFFFF;" >Redes</a>
-
-
-                                <a href="design.html" style="position: absolute;
-
-
-                                top: 66%;
-                                left: 12%;
-                                font-family: 'Poppins';
-                                font-style: normal;
-                                font-weight: 200;
-                                font-size: 20px;
-                                line-height: 30px;
-                                text-decoration: none;
-                                color: #FFFFFF;" >Design</a>
-
+                        <t style="left: 4%;">Projetos</t>
+                                <a href="desenvolvimento.html" style="top: 20%;">Desenvolvimento</a>
+                                <a href="robotica.html" style="top: 35%; left: 8%;">Robótica</a>
+                                <a href="redes.html" style="top: 52%; left: 12%;">Redes</a>
+                                <a href="design.html" style="top: 68%; left: 12%;" >Design</a>
                     </div>
 
                     <div class="ftrdir">
-
-                        <t style="
-                        left: 0%;    
-                        position: absolute;
-                        font-family: 'Poppins';
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 30px;
-                        line-height: 30px;
-                        color: #fdfdfd; text-decoration: none;">Contato</t>
-
+                        <t style="left: 4%">Contato</t>
 <!--TELEFONE-->
-
-                                <a href="http://" target="_blank" rel="noopener noreferrer" style="
-
-                                top: 20%;
-                                position: absolute;
-                                left: 0%;
-                                font-family: 'Poppins';
-                                font-style: normal;
-                                font-weight: 100;
-                                font-size: 16px;
-                                line-height: 30px;
-                                text-decoration: none;
-                                color: #FFFFFF;">+55 (85) 8708-0117</a>
-
-                                <a href="http://" target="_blank" rel="noopener noreferrer" style="
-
-                                top: 32%;
-                                position: absolute;
-                                left: 0%;
-                                font-family: 'Poppins';
-                                font-style: normal;
-                                font-weight: 100;
-                                font-size: 16px;
-                                line-height: 30px;
-                                text-decoration: none;
-                                color: #FFFFFF;">+55 (85) 8708-0117</a>
-
+                                <a href="http://" target="_blank" rel="noopener noreferrer" style="top: 20%;">+55 (85) 8708-0117</a>
+                                <a href="http://" target="_blank" rel="noopener noreferrer" style="top: 32%;">+55 (85) 8708-0117</a>
 <!--LINKEDIN-->
-                                <a href="robotica.html" style="position: absolute;
-                                
-
-                                top: 35%;
-                                left: 8%;
-                                font-family: 'Poppins';
-                                font-style: normal;
-                                font-weight: 200;
-                                font-size: 20px;
-                                line-height: 30px;
-                                text-decoration: none;
-                                color: #FFFFFF;
-                                " >Lara Linkedin</a>
-
-<!--EMAIL-->
-                                <a href="redes.html" style="position: absolute;
-
-
-                                top: 50%;
-                                left: 12%;
-                                font-family: 'Poppins';
-                                font-style: normal;
-                                font-weight: 200;
-                                font-size: 20px;
-                                line-height: 30px;
-                                text-decoration: none;
-                                color: #FFFFFF;" >Redes</a>
+                                <a href="https://www.linkedin.com/in/lara-evelyn-7081ab270" style="position: absolute; top: 45%;" >Lara Linkedin</a>
+                                <a href="https://www.linkedin.com/in/luana-hevillyn-morais-da-silva-71a1b2270/" style="top: 56%;" >Luana Linkedin</a>
 <!--GITHUB-->
-
-                                <a href="design.html" style="position: absolute;
-
-
-                                top: 66%;
-                                left: 12%;
-                                font-family: 'Poppins';
-                                font-style: normal;
-                                font-weight: 200;
-                                font-size: 20px;
-                                line-height: 30px;
-                                text-decoration: none;
-                                color: #FFFFFF;" >Design</a>
-
+                                <a href="https://github.com/LaraeLua" style=" top: 68%;" >Nosso Github</a>
                     </div>
             </div>
         </footer>   
         
-            <script src="acao.js"></script>
+        
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
           AOS.init();
-        </script>
-</body>
+        </script>    
+        <script src="acao.js"></script>
+    </body>
 </html>
-       
