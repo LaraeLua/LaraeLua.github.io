@@ -9,11 +9,11 @@ function ProjetoDesenv(el){
 
         if (display == "none"){
 
-            footer.style.top = "420%";
-            robotica.style.top = "358%";
-            roboticainfo.style.top = "358%";
-            design.style.top = "317%";
-            designinfo.style.top = "317%";
+            footer.style.top = "450%";
+            robotica.style.top = "378%";
+            roboticainfo.style.top = "378%";
+            design.style.top = "337%";
+            designinfo.style.top = "337%";
             document.getElementById(el).style.display = 'block';
 
         }else{
@@ -35,9 +35,9 @@ function ProjetoDesign(el){
     var footer = document.querySelector("footer");
         if (display == "none"){
 
-            footer.style.top = "400%";
-            robotica.style.top = "343%";
-            roboticainfo.style.top = "343%";
+            footer.style.top = "450%";
+            robotica.style.top = "378%";
+            roboticainfo.style.top = "378%";
             document.getElementById(el).style.display = 'block';
 
         }else{
@@ -54,7 +54,7 @@ function ProjetoRobot(el){
     var footer = document.querySelector("footer");
         if (display == "none"){
 
-            footer.style.top = "405%";
+            footer.style.top = "450%";
             document.getElementById(el).style.display = 'block';
 
         }else{
