@@ -329,84 +329,92 @@ footer t{
 
 }
 
+.img{
+
+  width: 26%;
+  top: 23%;
+  height: 60%;
+  position: absolute;
+  left: 66%;
+}
 .ftresq{
-    top: 35%;
-    position: absolute;
-    left: 10%;
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 30px;
-    color: #fdfdfd; 
-    text-decoration: none;
-    text-align: left;
+  top: 35%;
+  position: absolute;
+  left: 15%;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 50px;
+  color: #fdfdfd; 
+  text-decoration: none;
+  text-align: left;
 }
 
 .ftrcent {
-    width: 26%;
-    top: 10%;
-    height: 90%;
-    position: absolute;
-    left: 50%;
+  width: 26%;
+  top: 10%;
+  height: 90%;
+  position: absolute;
+  left: 50%;
 
 }
 
 .ftrcent a{
-    position: absolute;
-    left: 0%;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 20px;
-    line-height: 30px;
-    text-decoration: none;
-    color: #FFFFFF;
+  position: absolute;
+  left: 0%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .ftrdir{
 
-    width: 26%;
-    top: 10%;
-    height: 90%;
-    position: absolute;
-    left: 74%;
+  width: 26%;
+  top: 10%;
+  height: 90%;
+  position: absolute;
+  left: 74%;
 }
 
 .ftrdir a{
-    
-    position: absolute;
-    left: 0%;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 100;
-    font-size: 18px;
-    line-height: 30px;
-    text-decoration: none;
-    color: #FFFFFF;
+  
+  position: absolute;
+  left: 0%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .projetos a{
-    position: absolute;
-    top: 45%;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 30px;
-    color: #fdfdfd; text-decoration: none;
+  position: absolute;
+  top: 45%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  color: #fdfdfd; text-decoration: none;
 }
 
 .projetos t{
-    position: absolute;
-    top: 45%;      
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 30px;
-    color: #fdfdfd;
+  position: absolute;
+  top: 45%;      
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 30px;
+  color: #fdfdfd;
 }
 
 .desenvolvimentodiv{
