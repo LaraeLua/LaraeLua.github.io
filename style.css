@@ -1,3 +1,44 @@
+@-webkit-keyframes slidein {
+  0% {
+    top: -400px;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    top: 0px;
+  }
+}
+@keyframes slidein {
+  0% {
+    top: -400px;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    top: 0px;
+  }
+}
+@-webkit-keyframes slideout {
+  0% {
+    top: 0;
+    opacity: 1;
+  }
+  100% {
+    top: -400px;
+    opacity: 0;
+  }
+}
+@keyframes slideout {
+  0% {
+    top: 0;
+    opacity: 1;
+  }
+  100% {
+    top: -400px;
+    opacity: 0;
+  }
+}
+
 body{
   position: absolute;
   width: 100%;
@@ -47,7 +88,7 @@ e{
 
 header{
   position: fixed;
-  z-index: 1;
+  z-index: 10;
   left: 0%;
   right: 0%;
   top: 0%;
@@ -205,28 +246,10 @@ header img{
 }
 
 
-.Desenvolvimento{
-  position: absolute;
-  top: 220%;
-  width: 44%;
-  height: 40%;
-  margin-left: 1%;
-  background: #530080;
-  border-radius: 75px;
 
-}
 
-.Design{
-  position: absolute;
-  top: 261%;
-  width: 44%;
-  height: 40%;
-  margin-left: 1%;
 
-  background: #530080;
-  border-radius: 75px;
-  
-}
+
 
 .Robotica{
   position: absolute;
@@ -239,39 +262,9 @@ header img{
   border-radius: 75px;
 }
 
-.Desenvolvimentoinfo button{
-  position: absolute;
-  top: 220%;
-  left: 45%;
-  width: 54%;
-  height: 40%;
-  border: 2px solid #530080;
-  background: #0f0a29;
-  border-radius: 75px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 30px;
-  color: #fdfdfd;
-}
 
-.Designinfo button{
-  position: absolute;
-  top: 261%;
-  left: 45%;
-  width: 54%;
-  height: 40%;
-  border: 2px solid #530080;
-  background: #0f0a29;
-  border-radius: 75px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 30px;
-  color: #fdfdfd;
-}
+
+
 
 
 .Roboticainfo button{
@@ -353,7 +346,7 @@ footer t{
 
 }
 
-.img{
+#contact .img{
 
   width: 26%;
   top: 23%;
@@ -361,6 +354,7 @@ footer t{
   position: absolute;
   left: 66%;
 }
+
 .ftresq{
   top: 35%;
   position: absolute;
@@ -442,31 +436,9 @@ footer t{
   color: #fdfdfd;
 }
 
-.desenvolvimentodiv{
-  display: none;
-  opacity: 1;
-  transition: opacity .5s linear;
-  position: absolute;
-  top: 261%;
-  right: 0.1%;
-  width: 100%;
-  height: 75%;
-  border: 2px solid #530080;
-  background: #0f0a29;
-  border-radius: 75px;
-}
 
-.designdiv{
-  display: none;
-  position: absolute;
-  top: 302%;
-  right: 0.1%;
-  width: 100%;
-  height: 75%;
-  border: 2px solid #530080;
-  background: #0f0a29;
-  border-radius: 75px;
-}  
+
+
 
 .robotdiv{
   display: none;
@@ -478,173 +450,9 @@ footer t{
   border: 2px solid #530080;
   background: #0f0a29;
   border-radius: 75px;
+  z-index: 1;
 }
 
 body::-webkit-scrollbar {
   width: 0px;               /* width of the entire scrollbar */
-
-}/* DESENVOLVIMENTOINFOO  */
-@-webkit-keyframes slidein {
-  0% {
-    top: -400px;
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    top: 0px;
-  }
 }
-@keyframes slidein {
-  0% {
-    top: -400px;
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    top: 0px;
-  }
-}
-@-webkit-keyframes slideout {
-  0% {
-    top: 0;
-    opacity: 1;
-  }
-  100% {
-    top: -400px;
-    opacity: 0;
-  }
-}
-@keyframes slideout {
-  0% {
-    top: 0;
-    opacity: 1;
-  }
-  100% {
-    top: -400px;
-    opacity: 0;
-  }
-}
-
-
-body #scene {
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  background: #0f0a29;
-  border-radius: 75px;
-  overflow: hidden;
-}
-body #scene #left-zone {
-  background: #0f0a29;
-  height: 75%;
-  flex-grow: 0;
-  display: flex;
-  width: 350px;
-  align-items: center;
-  justify-content: left;
-}
-body #scene #left-zone .list {
-  display: flex;
-  list-style: none;
-  align-content: stretch;
-  flex-direction: column;
-  flex-grow: 1;
-  margin: 0;
-  padding: 0;
-}
-body #scene #left-zone .list li.item input[type=radio] {
-  display: none;
-}
-body #scene #left-zone .list li.item input[type=radio] ~ label {
-  display: block;
-  opacity: 0.5;
-  height: 50px;
-  text-align: center;
-  line-height: 50px;
-  color: #ffffff;
-}
-body #scene #left-zone .list li.item input[type=radio] ~ label:first-letter {
-  text-transform: uppercase;
-}
-body #scene #left-zone .list li.item input[type=radio] ~ label:hover {
-  opacity: 1;
-  cursor: pointer;
-  color: #ffffff;
-}
-
-body #scene #left-zone .list li.item input[type=radio] ~ .content {
-  position: absolute;
-  left: 35%;
-  top: -100%;
-  width: 50%;
-  height: 100%;
-  -webkit-animation-duration: 0.75s;
-          animation-duration: 0.75s;
-  -webkit-animation-name: slideout;
-          animation-name: slideout;
-  -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-/* cor da linha  */
-
-body #scene #left-zone .list li.item input[type=radio] ~ .content h1 {
-  color: #000000;
-}
-
-body #scene #left-zone .list li.item input[type=radio] ~ .content h1:first-letter {
-  text-transform: uppercase;
-}
-body #scene #left-zone .list li.item input[type=radio] ~ .content p {
-  max-width: 50%;
-  text-align: center;
-}
-
-
-body #scene #left-zone .list li.item input[type=radio]:checked ~ label {
-  opacity: 1;
-  -webkit-animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-          animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-}
-
-
-body #scene #left-zone .list li.item input[type=radio]:checked ~ label {
-  color: #ffffff;
-  border-right: solid 4px #7100cd;
-}
-
-body #scene #left-zone .list li.item input[type=radio]:checked ~ .content {
-  -webkit-animation-duration: 0.75s;
-          animation-duration: 0.75s;
-  -webkit-animation-name: slidein;
-          animation-name: slidein;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
-          animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
-}
-body #scene #middle-border {
-  background-color: #eee;
-  height: 80%;
-  flex-grow: 1;
-  max-width: 2px;
-  z-index: 0;
-}
-body #scene #right-zone {
-  background: #ffffff;
-  height: 100%;
-  flex-grow: 3;
-}
-
