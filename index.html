@@ -8,11 +8,15 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styledesenv.css">
+    <link rel="stylesheet" href="styledesign.css">
+
 
     <style>html, body {height: 100%; margin: 0; padding: 0;}</style>
     <title>Portfólio</title>
@@ -114,166 +118,334 @@
           <t style=" right: 35%;">Robótica</t>
       </div>
 
+    </div>
+
       <div class="Desenvolvimentoinfo">
           <button onclick="ProjetoDesenv('Desenv')" data-aos="fade-right" >Urna Eletrônica, Login com Java, Jogo da Velha</button>
           <div id="Desenv" class="desenvolvimentodiv">
-
-                <div id="scene">
-                  <div id="left-zone">
-                    <ul class="list">
-                      <li class="item">
-
-                        <input type="radio" id="urna" name="basic_carousel" checked="checked"/>
-                        <label class="label1" for="urna">Urna Eletrônica</label>
-                        <div class="content label1">
-
-                          <img src="Urna1.png" style="height: 50%; width: 70%; margin-top: 0%; ">
-                          <h1>Urna Eletrônica</h1>
-                          <p>Feita no VS Code, trabalho em equipe com função de apresentar uma urna de votação.</p>  
-
-                        </div>
-                      </li>
-                      <li class="item">
-                        <input type="radio" id="login" name="basic_carousel"/>
-                        <label class="label2" for="login">Login em Java</label>
-                        <div class="content label2">
-
-                          <img src="Cadastro.png" style="height: 50%; width: 70%; margin-top: 10%; ">
-                          <h1>Login em Java</h1>
-                          <p>Feita no Eclipse, trabalho em equipe com função de apresentar uma tela de login, cadastro e menu(conectado com banco de dados).</p>                                    
-                        </div>
-                      </li>
-
-                      <li class="item">
-                        <input type="radio" id="jogo" name="basic_carousel"/>
-                        <label class="label3" for="jogo">Jogo da Velha</label>
-                        <div class="content label3">
-
-                          <h1>Jogo da Velha</h1>
-                          <p>The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus.</p>
-                       
-                      </div>
-                      </li>
-
-                      <li class="item">
-                        <input type="radio" id="sistema" name="basic_carousel"/>
-                        <label class="label4" for="sistema">Sistema de Infrequência</label>
-                        <div class="content label4">
-
-                          <h1>Sistema de Infrequência</h1>
-                          <p>The orange (specifically, the sweet orange) is the fruit of the citrus species Citrus × sinensis in the family Rutaceae.</p>
-                        
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                  <div id="middle-border"></div>
-                  <div id="right-zone"></div>
-                </div>
-          </div>
-      </div>
-
-      <div class="Designinfo">
-          <button onclick="ProjetoDesign('Design')" id="Designinfo2" data-aos="fade-right">Logotipos, Sites, Panfletos</button>
-          <div id="Design" class="designdiv" data-aos="fade-up">
-
-            <div id="scene">
+            <div id="desenvolvi">
               <div id="left-zone">
                 <ul class="list">
                   <li class="item">
-                    <input type="radio" id="Logotipos" name="basic_carousel" checked="checked"/>
-                    <label class="label1" for="Logotipos">Logotipos</label>
-                    <div class="content label1">
+                    <input type="radio" id="radio_urna" name="basic_carousel" value="urna" checked="checked"/>
+                    <label class="label_urna" for="radio_urna">Urna Eletrônica</label>
+                    <div class="content urnaeletronica">
+                      
+                      <!-- Slideshow container -->
+                      <div class="slideshow-container">
+        
+                        <!-- Full-width images with number and caption text -->
+                        <div id="img1" class="mySlides fade" >
+                          <img src="Urna1.png" style="width:100%; height: 100%;">
+                        </div>
+                      
+                        <div id="img2" class="mySlides fade">
+                          <img src="Urna2.png" style="width:720px; height: 320px">
+                        </div>
+                      
+                        <div id="img3" class="mySlides fade">
+                          <img src="Urna3.png" style="width:720px; height: 320px;">
+                        </div>
+                      
+                        <!-- Next and previous buttons -->
+                        
+                        <a class="prev" onclick="plusSlides(-1)">&#5130;</a>
+                        <a class="next" onclick="plusSlides(1)">&#5125;</a>
+                      </div>
+                      <br>
 
-                      <h1>Logotipos</h1>
-                      <p>Feita no VS Code, trabalho em equipe com função de apresentar uma urna de votação.</p>  
+                        <!-- The dots/circles -->
+                        <div class="bola0" style="text-align:center;" >
+                          <span class="dot" onclick="currentSlide(1)" ></span>
+                          <span class="dot" onclick="currentSlide(2)"></span>
+                          <span class="dot" onclick="currentSlide(3)"></span>
+                        </div>
+        
+        
+                      <h1>Urna Eletrônica</h1>
+                      <p>Trabalho em equipe, feito no VS Code,  com objetivo de apresentar uma urna de votação.</p>
+        
+                    </div>
+                  </li>
+        
+                  <li class="item">
+                    <input type="radio" id="radio_login" name="basic_carousel" value="login"/>
+                    <label class="label_login" for="radio_login">Sistema de Login</label>
+                    <div class="content login">
+        
+                      <!-- Slideshow container -->
+                      <div class="slideshow-container">
+        
+                        <!-- Full-width images with number and caption text -->
+                        <div id="img4" class="mySlides1 fade" >
+                          <img src="Cadastro.png" style="width:100%; height: 100%;">
+                        </div>
+                      
+                        <div id="img5" class="mySlides1 fade">
+                          <img src="Login.png" style="width:100%; height: 100%;">
+                        </div>
+                      
+                        <div id="img6" class="mySlides1 fade">
+                          <img src="menuJava.png" style="width:100%; height: 100%;">
+                        </div>
+                      
+                        <!-- Next and previous buttons -->
+                        
+                        <a class="prev" onclick="plusSlides1(-1)">&#5130;</a>
+                        <a class="next" onclick="plusSlides1(1)">&#5125;</a>
+                        
+                      </div>
+                      <br>
+        
+                      <!-- The dots/circles -->
+        
+                      <div class="bola1" style="text-align:center;" >
+                        <span class="dot1" onclick="currentSlide1(1)" ></span>
+                        <span class="dot1" onclick="currentSlide1(2)"></span>
+                        <span class="dot1" onclick="currentSlide1(3)"></span>
+                      </div>
+        
+                      <h1>Sistema de Login</h1>
+                      <p>Trabalho em equipe, feito no Eclipse, com objetivo de apresentar uma tela de login, cadastro e menu (conectado com banco de dados).</p>                                    
+                    </div>
+                  </li>
+                  
+                  <li class="item">
+                    <input type="radio" id="radio_jogo" name="basic_carousel" value="jogo"/>
+                    <label class="label_jogo" for="radio_jogo">Jogo da Velha</label>
+                    <div class="content jogo">
+        
+                      <!-- Slideshow container -->
+                      <div class="slideshow-container">
+        
+                        <!-- Full-width images with number and caption text -->
+                        <div id="img7" class="mySlides2 fade" >
+                          <img src="Cadastro.png" style="width:100%; height: 100%;">
+                        </div>
+                      
+                        <div id="img8" class="mySlides2 fade">
+                          <img src="Login.png" style="width:100%; height: 100%;">
+                        </div>
+                      
+                        <div id="img9" class="mySlides2 fade">
+                          <img src="menuJava.png" style="width:100%; height: 100%;">
+                        </div>
+                      
+                        <!-- Next and previous buttons -->
+                        
+                        <a class="prev" onclick="plusSlides2(-1)">&#5130;</a>
+                        <a class="next" onclick="plusSlides2(1)">&#5125;</a>
+                        
+                      </div>
+                      <br>
+        
+                      <!-- The dots/circles -->
+        
+                      <div class="bola2" style="text-align:center;" >
+                        <span class="dot2" onclick="currentSlide2(1)" ></span>
+                        <span class="dot2" onclick="currentSlide2(2)"></span>
+                        <span class="dot2" onclick="currentSlide2(3)"></span>
+                      </div>
+        
+                      <h1>Jogo  da Velha</h1>
+                      <p>The apple tree e, and is the most widely grown species in the genus Malus.</p>
+                    </div>
+                  </li>
+        
+                  <li class="item">
+                    <input type="radio" id="radio_infrequencia" name="basic_carousel" value="infrequencia"/>
+                    <label class="label_infrequencia" for="radio_infrequencia">Sistema de Infrequência</label>
+                    <div class="content infrequencia">
+                      
+                      <!-- Slideshow container -->
+                      <div class="slideshow-container">
+        
+                        <!-- Full-width images with number and caption text -->
+                        <div id="img10" class="mySlides3 fade" >
+                          <img src="telaLogin.png" style="width:100%; height: 100%;">
+                        </div>
+                      
+                        <div id="img11" class="mySlides3 fade">
+                          <img src="telaCadas.png" style="width:100%; height: 100%;">
+                        </div>
+                      
+                        <div id="img12" class="mySlides3 fade">
+                          <img src="telaMenu.png" style="width:100%; height: 100%;">
+                        </div>
+                      
+                        <!-- Next and previous buttons -->
+                        
+                        <a class="prev" onclick="plusSlides3(-1)">&#5130;</a>
+                        <a class="next" onclick="plusSlides3(1)">&#5125;</a>
+                        
+                      </div>
+                      <br>
+        
+                      <!-- The dots/circles -->
+        
+                      <div class="bola3" style="text-align:center;" >
+                        <span class="dot3" onclick="currentSlide3(1)" ></span>
+                        <span class="dot3" onclick="currentSlide3(2)"></span>
+                        <span class="dot3" onclick="currentSlide3(3)"></span>
+                      </div>
+        
+                      <h1>Sistema de Infrequência</h1>
+                      <p>The oranit of the citrus species Citrus × sinensis in the family Rutaceae.</p>
 
                     </div>
                   </li>
-
-                  <li class="item">
-                    <input type="radio" id="sites" name="basic_carousel"/>
-                    <label class="label2" for="sites">Sites</label>
-                    <div class="content label2">
-
-                      <img src="Cadastro.png" style="height: 50%; width: 70%; margin-top: 10%; ">
-                      <h1>Sites</h1>
-                      <p>Feita no Eclipse, trabalho em equipe com função de apresentar uma tela de login, cadastro e menu(conectado com banco de dados).</p>                                    
-                    </div>
-                  </li>
-
-                  <li class="item">
-                    <input type="radio" id="panfletos" name="basic_carousel"/>
-                    <label class="label3" for="panfletos">Panfletos</label>
-                    <div class="content label3">
-
-                      <h1>Panfletos</h1>
-                      <p>The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus.</p>
-                   
-                  </div>
-                  </li>
-
                 </ul>
               </div>
-              <div id="middle-border"></div>
-              <div id="right-zone"></div>
             </div>
-            
-
           </div>
         </div>
+        
+      
+      <div class="Designinfo">
+          <button onclick="ProjetoDesign('Design')" id="Designinfo2" data-aos="fade-right">Logotipos, Sites, Panfletos</button>
+          <div id="Design" class="designdiv" data-aos="fade-up">
+            <div id="designs">
+              <div id="left-zone">
+                <ul class="list">
+                  <li class="item">
+                    <input type="radio" id="radio_logos" name="basic_carousel" value="logos" checked="checked"/>
+                    <label class="label_logos" for="radio_logos">Logotipos</label>
+                    <div class="content logotipo">
+                      
+                      <!-- Slideshow container -->
+                      <div class="slideshow-container">
+        
+                        <!-- Full-width images with number and caption text -->
+                        <div id="img13" class="mySlides4 fade" >
+                          <img src="Urna1.png" style="width:100%; height: 100%;">
+                        </div>
+                      
+                        <div id="img14" class="mySlides4 fade">
+                          <img src="Urna2.png" style="width:720px; height: 320px">
+                        </div>
+                      
+                        <div id="img15" class="mySlides4 fade">
+                          <img src="Urna3.png" style="width:720px; height: 320px;">
+                        </div>
+                      
+                        <!-- Next and previous buttons -->
+                        
+                        <a class="prev" onclick="plusSlides4(-1)">&#5130;</a>
+                        <a class="next" onclick="plusSlides4(1)">&#5125;</a>
+                      </div>
+                      <br>
+
+                        <!-- The dots/circles -->
+                        <div class="bola4" style="text-align:center;" >
+                          <span class="dot4" onclick="currentSlide4(1)" ></span>
+                          <span class="dot4" onclick="currentSlide4(2)"></span>
+                          <span class="dot4" onclick="currentSlide4(3)"></span>
+                        </div>
+        
+        
+                      <h1>Logotipos</h1>
+                      <p>Trabalho em equipe, feito no VS Code,  com objetivo de apresentar uma urna de votação.</p>
+        
+                    </div>
+                  </li>
+        
+                  <li class="item">
+                    <input type="radio" id="radio_sites" name="basic_carousel" value="sites"/>
+                    <label class="label_sites" for="radio_sites">Sites</label>
+                    <div class="content sites">
+        
+                      <!-- Slideshow container -->
+                      <div class="slideshow-container">
+        
+                        <!-- Full-width images with number and caption text -->
+                        <div id="img4" class="mySlides5 fade" >
+                          <img src="Cadastro.png" style="width:100%; height: 100%;">
+                        </div>
+                      
+                        <div id="img5" class="mySlides5 fade">
+                          <img src="Login.png" style="width:100%; height: 100%;">
+                        </div>
+                      
+                        <div id="img6" class="mySlides5 fade">
+                          <img src="menuJava.png" style="width:100%; height: 100%;">
+                        </div>
+                      
+                        <!-- Next and previous buttons -->
+                        
+                        <a class="prev" onclick="plusSlides5(-1)">&#5130;</a>
+                        <a class="next" onclick="plusSlides5(1)">&#5125;</a>
+                        
+                      </div>
+                      <br>
+        
+                      <!-- The dots/circles -->
+        
+                      <div class="bola5" style="text-align:center;" >
+                        <span class="dot5" onclick="currentSlide5(1)" ></span>
+                        <span class="dot5" onclick="currentSlide5(2)"></span>
+                        <span class="dot5" onclick="currentSlide5(3)"></span>
+                      </div>
+        
+                      <h1>Sites</h1>
+                      <p>Trabalho em equipe, feito no Eclipse, com objetivo de apresentar uma tela de login, cadastro e menu (conectado com banco de dados).</p>                                    
+                    </div>
+                  </li>
+                  
+                  <li class="item">
+                    <input type="radio" id="radio_panfletos" name="basic_carousel" value="panfletos"/>
+                    <label class="label_panfletos" for="radio_panfletos">Panfletos</label>
+                    <div class="content panfletos">
+        
+                      <!-- Slideshow container -->
+                      <div class="slideshow-container">
+        
+                        <!-- Full-width images with number and caption text -->
+                        <div id="img19" class="mySlides6 fade" >
+                          <img src="Cadastro.png" style="width:100%; height: 100%;">
+                        </div>
+                      
+                        <div id="img20" class="mySlides6 fade">
+                          <img src="Login.png" style="width:100%; height: 100%;">
+                        </div>
+                      
+                        <div id="img21" class="mySlides6 fade">
+                          <img src="menuJava.png" style="width:100%; height: 100%;">
+                        </div>
+                      
+                        <!-- Next and previous buttons -->
+                        
+                        <a class="prev" onclick="plusSlides6(-1)">&#5130;</a>
+                        <a class="next" onclick="plusSlides6(1)">&#5125;</a>
+                        
+                      </div>
+                      <br>
+        
+                      <!-- The dots/circles -->
+        
+                      <div class="bola6" style="text-align:center;" >
+                        <span class="dot6" onclick="currentSlide6(1)" ></span>
+                        <span class="dot6" onclick="currentSlide6(2)"></span>
+                        <span class="dot6" onclick="currentSlide6(3)"></span>
+                      </div>
+        
+                      <h1>Panfletos</h1>
+                      <p>The apple tree e, and is the most widely grown species in the genus Malus.</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      </div>
       
       <div class="Roboticainfo">
               <button onclick="ProjetoRobot('robot')" id='robot2'  data-aos="fade-right">Garra Mecânica, Led, Buzzer</button>
               <div id="robot" class="robotdiv" data-aos="fade-up">
 
-                <div id="scene">
-                  <div id="left-zone">
-                    <ul class="list">
-                      <li class="item">
-
-                        <input type="radio" id="Garra" name="basic_carousel" checked="checked"/>
-                        <label class="label1" for="Garra">Garra Mecânica</label>
-                        <div class="content label1">
-
-                          <h1>Garra Mecânica</h1>
-                          <p>Feita no VS Code, trabalho em equipe com função de apresentar uma urna de votação.</p>  
-
-                        </div>
-                      </li>
-
-                      <li class="item">
-                        <input type="radio" id="Led" name="basic_carousel"/>
-                        <label class="label2" for="Led">Led</label>
-                        <div class="content label2">
-
-                          <img src="Cadastro.png" style="height: 50%; width: 70%; margin-top: 10%; ">
-                          <h1>Led</h1>
-                          <p>Feita no Eclipse, trabalho em equipe com função de apresentar uma tela de login, cadastro e menu(conectado com banco de dados).</p>                                    
-                        </div>
-                      </li>
-
-                      <li class="item">
-                        <input type="radio" id="Buzzer" name="basic_carousel"/>
-                        <label class="label3" for="Buzzer">Buzzer</label>
-                        <div class="content label3">
-
-                          <h1>Buzzer</h1>
-                          <p>The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus.</p>
-                       
-                      </div>
-                      </li>
-
-                    </ul>
-                  </div>
-                  <div id="middle-border"></div>
-                  <div id="right-zone"></div>
-                </div>
-          </div>
-      </div>
-
-  </div>
-
+                
+              </div>
+       </div>
+  
         <span id="mouse"></span>
 
         <footer id="contact">
@@ -316,6 +488,11 @@
           AOS.init();
         </script>    
         <script src="acao.js"></script>
+        <script src="acao2.js"></script>
+
+        
+
+        
 
     </body>
 </html>
