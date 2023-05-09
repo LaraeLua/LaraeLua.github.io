@@ -245,12 +245,6 @@ header img{
   color: #FFFFFF;
 }
 
-
-
-
-
-
-
 .Robotica{
   position: absolute;
   top: 302%;
@@ -261,11 +255,6 @@ header img{
   background: #530080;
   border-radius: 75px;
 }
-
-
-
-
-
 
 .Roboticainfo button{
   position: absolute;
@@ -435,10 +424,6 @@ footer t{
   line-height: 30px;
   color: #fdfdfd;
 }
-
-
-
-
 
 .robotdiv{
   display: none;
