@@ -1,312 +1,362 @@
 body #designs {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    margin: auto;
-    background-color: #ffffff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    overflow: hidden;
-    border-radius: 55px;
-  }
-  body #designs #left-zone {
-    background: #0f0a29;
-    height: 100%;
-    flex-grow: 0;
-    display: flex;
-    width: 350px;
-    align-items: center;
-    justify-content: left;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: auto;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  border-radius: 55px;
+}
+body #designs #left-zone {
+  background: #0f0a29;
+  height: 100%;
+  flex-grow: 0;
+  display: flex;
+  width: 350px;
+  align-items: center;
+  justify-content: left;
+}
 
-  /* Botoes dos projetos de desenvolvimento */
+/* Botoes dos projetos de desenvolvimento */
 
-  .Design{
-    position: absolute;
-    top: 261%;
-    width: 44%;
-    height: 40%;
-    margin-left: 1%;
-    background: #530080;
-    border-radius: 75px;
-    
-  }
+.Design{
+  position: absolute;
+  top: 261%;
+  width: 44%;
+  height: 40%;
+  margin-left: 1%;
+  background: #530080;
+  border-radius: 75px;
+  
+}
 
-  .Designinfo button{
-    position: absolute;
-    top: 261%;
-    left: 45%;
-    width: 54%;
-    height: 40%;
-    border: 2px solid #530080;
-    background: #0f0a29;
-    border-radius: 75px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 30px;
-    color: #fdfdfd;
-  }
+.Designinfo button{
+  position: absolute;
+  top: 261%;
+  left: 45%;
+  width: 54%;
+  height: 40%;
+  border: 2px solid #530080;
+  background: #0f0a29;
+  border-radius: 75px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  color: #fdfdfd;
+}
 
-  .designdiv{
-    display: none;
-    opacity: 1;
-    position: absolute;
-    transition: opacity .5s linear;
-    top: 302%;
-    right: 0.1%;
-    width: 100%;
-    height: 83%;
-    border: 2px solid #530080;
-    background: #0f0a29;
-    border-radius: 75px;
-    z-index: 1;
-  }  
+.designdiv{
+  display: none;
+  opacity: 1;
+  position: absolute;
+  transition: opacity .5s linear;
+  top: 302%;
+  right: 0.1%;
+  width: 100%;
+  height: 83%;
+  border: 2px solid #530080;
+  background: #0f0a29;
+  border-radius: 75px;
+  z-index: 1;
+}  
 
 /* Botoes dos projetos de desenvolvimento */
 
 
 
-  body #designs #left-zone .list {
-    display: flex;
-    list-style: none;
-    align-content: stretch;
-    flex-direction: column;
-    flex-grow: 1;
-    margin: 0;
-    padding: 0;
-  }
+body #designs #left-zone .list {
+  display: flex;
+  list-style: none;
+  align-content: stretch;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+}
 
-  body #designs #left-zone .list li.item input[type=radio] {
-    display: none;
-  }
+body #designs #left-zone .list li.item input[type=radio] {
+  display: none;
+}
 
-  body #designs #left-zone .list li.item input[type=radio] ~ label {
-    display: block;
-    height: 55px;
-    text-align: center;
-    line-height: 50px;
-    cursor: pointer;
-  }
+body #designs #left-zone .list li.item input[type=radio] ~ label {
+  display: block;
+  height: 55px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+}
 
-  body #designs #left-zone .list li.item input[type=radio] ~ .div:hover :not(:hover)  {
+body #designs #left-zone .list li.item input[type=radio] ~ .div:hover :not(:hover)  {
 
-    opacity: 1;
-  }
+  opacity: 1;
+}
 
-  body #designs #left-zone .list li.item input[type=radio] ~ label :hover {
+body #designs #left-zone .list li.item input[type=radio] ~ label :hover {
 
-    scale: 1.5;
+  scale: 1.5;
 
-  }
+}
 
-  body #designs #left-zone .list li.item input[type=radio] ~ .content {
-    position: absolute;
-    top: -900px;
-    left: 37%;
-    height: 700px;
-    width: 720px;
-    -webkit-animation-duration: 0.75s;
-            animation-duration: 0.75s;
-    -webkit-animation-name: slideout;
-            animation-name: slideout;
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
+body #designs #left-zone .list li.item input[type=radio] ~ .content {
+  position: absolute;
+  top: -900px;
+  left: 37%;
+  height: 700px;
+  width: 720px;
+  -webkit-animation-duration: 0.75s;
+          animation-duration: 0.75s;
+  -webkit-animation-name: slideout;
+          animation-name: slideout;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
-  body #designs #left-zone .list li.item input[type=radio] ~ .content.logotipo h1,
-  body #designs #left-zone .list li.item input[type=radio] ~ .content.sites h1,
-  body #designs #left-zone .list li.item input[type=radio] ~ .content.panfletos h1 {
-    white-space: nowrap;    
-    margin-top: 3%;
-    color: #530080;
-  }
+body #designs #left-zone .list li.item input[type=radio] ~ .content.logotipo h1,
+body #designs #left-zone .list li.item input[type=radio] ~ .content.panfletos h1 {
+  white-space: nowrap;    
+  margin-top: 2%;
+  color: #530080;
+}
 
-  body #designs #left-zone .list li.item input[type=radio] ~ .content p {
-    margin-top: 0.5%;
-    max-width: 70%;
-    text-align: center;
-  }
-  body #designs #left-zone .list li.item input[type=radio]:checked ~ label {
-    opacity: 1;
-    -webkit-animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-            animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  }
-  body #designs #left-zone .list li.item input[type=radio]:checked ~ label.label_logos,
-  body #designs #left-zone .list li.item input[type=radio]:checked ~ label.label_sites,
-  body #designs #left-zone .list li.item input[type=radio]:checked ~ label.label_panfletos {
-    
-    color: #ffffff;
-    border-right: solid 4px #ffffff;
-  }
+body #designs #left-zone .list li.item input[type=radio] ~ .content.sites h1{
+  white-space: nowrap;    
+  margin-top: 1%;
+  color: #530080;
+}
+
+body #designs #left-zone .list li.item input[type=radio] ~ .content p {
+  margin-top: 0.5%;
+  max-width: 70%;
+  text-align: center;
+}
+body #designs #left-zone .list li.item input[type=radio]:checked ~ label {
+  opacity: 1;
+  -webkit-animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+body #designs #left-zone .list li.item input[type=radio]:checked ~ label.label_logos,
+body #designs #left-zone .list li.item input[type=radio]:checked ~ label.label_sites,
+body #designs #left-zone .list li.item input[type=radio]:checked ~ label.label_panfletos {
   
+  color: #ffffff;
+  border-right: solid 4px #ffffff;
+}
+
+
+/* Slider---------------------------------------------------------------------------------------*/
+
+/* Slideshow container */
+.content.logotipo .slideshow-container,
+.content.sites .slideshow-container,
+.content.panfletos .slideshow-container {
   
- /* Slider---------------------------------------------------------------------------------------*/
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides4,
+.mySlides5,
+.mySlides6 {
+
+  display: none;
+}
+
+.content.logotipo .slideshow-container .prev{
+  cursor: pointer;
+  position: absolute;
+  margin-top: -55%;
+  padding: 16px;
+  color: #46206B;
+  font-weight: normal;
+  font-size: 40px;
+  transition: 0.6s ease;
+  user-select: none;
+  right: 105%;
+
+}
+
+ /* SETAS */
+.content.sites .slideshow-container .prev {
+   
+   cursor: pointer;
+   position: absolute;
+   margin-top: -38%;
+   padding: 16px;
+   color: #46206B;
+   font-weight: normal;
+   font-size: 40px;
+   transition: 0.6s ease;
+   user-select: none;
+   right: 105%;
+ } 
+
+ .content.panfletos .slideshow-container .prev{
+  cursor: pointer;
+  position: absolute;
+  margin-top: -74%;
+  padding: 16px;
+  color: #46206B;
+  font-weight: normal;
+  font-size: 40px;
+  transition: 0.6s ease;
+  user-select: none;
+  right: 105%;
+
+}
+
+.content.logotipo .slideshow-container .next{
+
+  cursor: pointer;
+  position: absolute;
+  margin-top: -55%;
+  padding: 16px;
+  color: #46206B;
+  font-weight: normal;
+  font-size: 40px;
+  transition: 0.6s ease;
+  user-select: none;
+  left: 105%;
+  border-radius: 50%;
   
-  /* Slideshow container */
-  .content.logotipo .slideshow-container,
-  .content.sites .slideshow-container,
-  .content.panfletos .slideshow-container {
-    
-    position: relative;
-  }
-  
-  /* Hide the images by default */
-  .mySlides4,
-  .mySlides5,
-  .mySlides6 {
+} 
 
-    display: none;
-  }
+/* Position the "next button" to the right */
+.content.sites .slideshow-container .next{
 
-  .content.sites .slideshow-container .next{
+  cursor: pointer;
+  position: absolute;
+  margin-top: -38%;
+  padding: 16px;
+  color: #46206B;
+  font-weight: normal;
+  font-size: 40px;
+  transition: 0.6s ease;
+  user-select: none;
+  left: 105%;
+  border-radius: 50%;
+}
 
-    cursor: pointer;
-    position: absolute;
-    margin-top: -42%;
-    padding: 16px;
-    color: #46206B;
-    font-weight: normal;
-    font-size: 40px;
-    transition: 0.6s ease;
-    user-select: none;
-    left: 105%;
-    border-radius: 50%;
-    
-  } 
- 
-  .content.sites .slideshow-container .prev{
-    cursor: pointer;
-    position: absolute;
-    margin-top: -42%;
-    padding: 16px;
-    color: #46206B;
-    font-weight: normal;
-    font-size: 40px;
-    transition: 0.6s ease;
-    user-select: none;
-    right: 105%;
-
-  }
-
-   /* SETAS */
-.content.logotipo .slideshow-container .prev,
-.content.panfletos .slideshow-container .prev {
-     
-     cursor: pointer;
-     position: absolute;
-     margin-top: -29%;
-     padding: 16px;
-     color: #46206B;
-     font-weight: normal;
-     font-size: 40px;
-     transition: 0.6s ease;
-     user-select: none;
-     right: 105%;
-   } 
-  
-  /* Position the "next button" to the right */
-.content.logotipo .slideshow-container .next,
 .content.panfletos .slideshow-container .next {
 
-    cursor: pointer;
-    position: absolute;
-    margin-top: -29%;
-    padding: 16px;
-    color: #46206B;
-    font-weight: normal;
-    font-size: 40px;
-    transition: 0.6s ease;
-    user-select: none;
-    left: 105%;
-    border-radius: 50%;
-  }
+  cursor: pointer;
+  position: absolute;
+  margin-top: -75%;
+  padding: 16px;
+  color: #46206B;
+  font-weight: normal;
+  font-size: 40px;
+  transition: 0.6s ease;
+  user-select: none;
+  left: 105%;
+  border-radius: 50%;
   
-  .content.logotipo .slideshow-container .div:hover :not(:hover),
-  .content.sites .slideshow-container .div:hover :not(:hover),
-  .content.panfletos .slideshow-container .div:hover :not(:hover) {
-    
-    opacity: 1;
+} 
+
+.content.logotipo .slideshow-container .div:hover :not(:hover),
+.content.sites .slideshow-container .div:hover :not(:hover),
+.content.panfletos .slideshow-container .div:hover :not(:hover) {
   
-  }
+  opacity: 1;
 
-  /* On hover, add a black background color with a little bit see-through */
-  .content.logotipo .slideshow-container .prev:hover, 
-  .content.logotipo .slideshow-container .next:hover,
-  .content.sites .slideshow-container .prev:hover, 
-  .content.sites .slideshow-container .next:hover,
-  .content.panfletos .slideshow-container .prev:hover, 
-  .content.panfletos .slideshow-container .next:hover {
-
-    scale: 1.5;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot4,
-  .dot5,
-  .dot6{
-
-    cursor: pointer;
-    height: 13px;
-    width: 13px;
-    margin: 0 2px;
-    background-color: #AB74E2;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-    margin-top: 4%;
-  }
-  
-  .content.logotipo .bola4 .active, 
-  .content.logotipo .bola4 .dot4 :hover,
-  .content.sites .bola5 .active, 
-  .content.sites .bola5 .dot5 :hover,
-  .content.panfletos .bola6 .active, 
-  .content.panfletos .bola6 .dot6 :hover{
-
-    background-color: #2F1E4A;
 }
-  
 
-  body #designs #left-zone .list li.item input[type=radio]:checked ~ .content {
-    -webkit-animation-duration: 0.75s;
-            animation-duration: 0.75s;
-    -webkit-animation-name: slidein;
-            animation-name: slidein;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-    -webkit-animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
-            animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  }
+/* On hover, add a black background color with a little bit see-through */
+.content.logotipo .slideshow-container .prev:hover, 
+.content.logotipo .slideshow-container .next:hover,
+.content.sites .slideshow-container .prev:hover, 
+.content.sites .slideshow-container .next:hover,
+.content.panfletos .slideshow-container .prev:hover, 
+.content.panfletos .slideshow-container .next:hover {
+
+  scale: 1.5;
+}
+
+/* The dots/bullets/indicators */
+.dot4,
+.dot6{
+
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #AB74E2;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin-top: 4%;
+}
+
+.dot5{
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #AB74E2;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin-top: 1%;
+}
+
+.content.logotipo .bola4 .active, 
+.content.logotipo .bola4 .dot4 :hover,
+.content.sites .bola5 .active, 
+.content.sites .bola5 .dot5 :hover,
+.content.panfletos .bola6 .active, 
+.content.panfletos .bola6 .dot6 :hover{
+
+  background-color: #2F1E4A;
+}
+
+
+body #designs #left-zone .list li.item input[type=radio]:checked ~ .content {
+  -webkit-animation-duration: 0.75s;
+          animation-duration: 0.75s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
 
 #img13,
 #img14,
 #img15,
 #img16,
-#img17,
-#img18,
-#img19,
-#img20,
-#img21{
+#img17{
 
-  width: 720px;
-  height: 320px;
-  opacity: 1;
+width: 400px;
+height: 350px;
+opacity: 1;
 }
 
-#img4,
-#img5,
-#img6{
+#img18,
+#img19,
+#img20{
 
-  width: 510px;
-  height: 350px;
+width: 660px;
+height: 420px;
+opacity: 1;
+}
+
+#img21,
+#img22,
+#img23,
+#img24{
+
+  width: 330px;
+  height: 430px;
   opacity: 1;
 
 }
