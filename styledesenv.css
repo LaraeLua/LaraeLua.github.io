@@ -106,7 +106,7 @@ body #desenvolvi #left-zone .list li.item input[type=radio] ~ label :hover {
 body #desenvolvi #left-zone .list li.item input[type=radio] ~ .content {
   position: absolute;
   top: -900px;
-  left: 37%;
+  left: 39%;
   height: 700px;
   width: 720px;
   -webkit-animation-duration: 0.75s;
@@ -198,11 +198,21 @@ body #desenvolvi #left-zone .list li.item input[type=radio]:checked ~ label.labe
   right: 105%;
 
 }
+.content.jogo .slideshow-container .prev{
+  cursor: pointer;
+  position: absolute;
+  margin-top: -72%;
+  padding: 16px;
+  color: #46206B;
+  font-weight: normal;
+  font-size: 40px;
+  transition: 0.6s ease;
+  user-select: none;
+  right: 105%;
+}
 
  /* SETAS */
-.content.urnaeletronica .slideshow-container .prev,
-.content.jogo .slideshow-container .prev,
-.content.infrequencia .slideshow-container .prev {
+.content.urnaeletronica .slideshow-container .prev {
    
    cursor: pointer;
    position: absolute;
@@ -216,10 +226,49 @@ body #desenvolvi #left-zone .list li.item input[type=radio]:checked ~ label.labe
    right: 105%;
  } 
 
+ .content.infrequencia .slideshow-container .prev{
+   cursor: pointer;
+   position: absolute;
+   margin-top: -50%;
+   padding: 16px;
+   color: #46206B;
+   font-weight: normal;
+   font-size: 40px;
+   transition: 0.6s ease;
+   user-select: none;
+   right: 105%;
+ }
+
+ .content.jogo .slideshow-container .next{
+  cursor: pointer;
+  position: absolute;
+  margin-top: -72%;
+  padding: 16px;
+  color: #46206B;
+  font-weight: normal;
+  font-size: 40px;
+  transition: 0.6s ease;
+  user-select: none;
+  left: 105%;
+  border-radius: 50%;
+}
+
+.content.infrequencia .slideshow-container .next{
+  cursor: pointer;
+  position: absolute;
+  margin-top: -50%;
+  padding: 16px;
+  color: #46206B;
+  font-weight: normal;
+  font-size: 40px;
+  transition: 0.6s ease;
+  user-select: none;
+  left: 105%;
+  border-radius: 50%;
+}
+ 
 /* Position the "next button" to the right */
-.content.urnaeletronica .slideshow-container .next,
-.content.jogo .slideshow-container .next,
-.content.infrequencia .slideshow-container .next {
+.content.urnaeletronica .slideshow-container .next {
 
   cursor: pointer;
   position: absolute;
@@ -300,25 +349,37 @@ body #desenvolvi #left-zone .list li.item input[type=radio]:checked ~ .content {
 
 #img1,
 #img2,
-#img3,
-#img7,
-#img8,
-#img9,
-#img10,
-#img11,
-#img12{
-
-width: 720px;
-height: 320px;
-opacity: 1;
+#img3{
+  margin-top: 10% ;
+  width: 850px;
+  height: 400px;
+  opacity: 1;
 }
 
 #img4,
 #img5,
 #img6{
+  margin-top: 10% ;
+  width: 550px;
+  height: 390px;
+  opacity: 1;
+}
 
-width: 510px;
-height: 350px;
-opacity: 1;
+#img7,
+#img8,
+#img9{
+  margin-top: 16% ;
+  width: 340px;
+  height: 450px;
+  opacity: 1;
+}
 
+#img10,
+#img11,
+#img12{
+  margin-top: 10% ;
+  width: 520px;
+  height: 430px;
+  opacity: 1;
+  border: 1px solid #530080;
 }
