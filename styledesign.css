@@ -106,7 +106,7 @@ body #designs #left-zone .list li.item input[type=radio] ~ label :hover {
 body #designs #left-zone .list li.item input[type=radio] ~ .content {
   position: absolute;
   top: -900px;
-  left: 37%;
+  left: 39%;
   height: 700px;
   width: 720px;
   -webkit-animation-duration: 0.75s;
@@ -190,7 +190,7 @@ body #designs #left-zone .list li.item input[type=radio]:checked ~ label.label_p
    
    cursor: pointer;
    position: absolute;
-   margin-top: -38%;
+   margin-top: -36%;
    padding: 16px;
    color: #46206B;
    font-weight: normal;
@@ -203,7 +203,7 @@ body #designs #left-zone .list li.item input[type=radio]:checked ~ label.label_p
  .content.panfletos .slideshow-container .prev{
   cursor: pointer;
   position: absolute;
-  margin-top: -74%;
+  margin-top: -80%;
   padding: 16px;
   color: #46206B;
   font-weight: normal;
@@ -235,7 +235,7 @@ body #designs #left-zone .list li.item input[type=radio]:checked ~ label.label_p
 
   cursor: pointer;
   position: absolute;
-  margin-top: -38%;
+  margin-top: -36%;
   padding: 16px;
   color: #46206B;
   font-weight: normal;
@@ -250,7 +250,7 @@ body #designs #left-zone .list li.item input[type=radio]:checked ~ label.label_p
 
   cursor: pointer;
   position: absolute;
-  margin-top: -75%;
+  margin-top: -80%;
   padding: 16px;
   color: #46206B;
   font-weight: normal;
@@ -336,8 +336,9 @@ body #designs #left-zone .list li.item input[type=radio]:checked ~ .content {
 #img16,
 #img17{
 
-width: 400px;
-height: 350px;
+margin-top: 12%;
+width: 420px;
+height: 400px;
 opacity: 1;
 }
 
@@ -345,8 +346,9 @@ opacity: 1;
 #img19,
 #img20{
 
-width: 660px;
-height: 420px;
+margin-top: 12%;
+width: 750px;
+height: 460px;
 opacity: 1;
 }
 
@@ -355,8 +357,9 @@ opacity: 1;
 #img23,
 #img24{
 
-  width: 330px;
-  height: 430px;
+  margin-top: 10%;
+  width: 350px;
+  height: 500px;
   opacity: 1;
 
 }
