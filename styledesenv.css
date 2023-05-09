@@ -1,308 +1,306 @@
-  body #desenvolvi {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    margin: auto;
-    background-color: #ffffff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    overflow: hidden;
-    border-radius: 55px;
-  }
-  body #desenvolvi #left-zone {
-    background: #0f0a29;
-    height: 100%;
-    flex-grow: 0;
-    display: flex;
-    width: 350px;
-    align-items: center;
-    justify-content: left;
-  }
+body #desenvolvi {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: auto;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  border-radius: 55px;
+}
+body #desenvolvi #left-zone {
+  background: #0f0a29;
+  height: 100%;
+  flex-grow: 0;
+  display: flex;
+  width: 350px;
+  align-items: center;
+  justify-content: left;
+}
 
-  /* Botoes dos projetos de desenvolvimento */
+/* Botoes dos projetos de desenvolvimento */
 
-  .Desenvolvimento{
-    position: absolute;
-    top: 220%;
-    width: 44%;
-    height: 40%;
-    margin-left: 1%;
-    background: #530080;
-    border-radius: 75px;
-  
-  }
+.Desenvolvimento{
+  position: absolute;
+  top: 220%;
+  width: 44%;
+  height: 40%;
+  margin-left: 1%;
+  background: #530080;
+  border-radius: 75px;
 
-  .Desenvolvimentoinfo button{
-    position: absolute;
-    top: 220%;
-    left: 45%;
-    width: 54%;
-    height: 40%;
-    border: 2px solid #530080;
-    background: #0f0a29;
-    border-radius: 75px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 30px;
-    color: #fdfdfd;
-  }
+}
 
-  .desenvolvimentodiv{
-    display: none;
-    opacity: 1;
-    transition: opacity .5s linear;
-    position: absolute;
-    top: 261%;
-    right: 0.1%;
-    width: 100%;
-    height: 83%;
-    border: 2px solid #530080;
-    background: #0f0a29;
-    border-radius: 75px;
-    z-index: 1;
-  }
+.Desenvolvimentoinfo button{
+  position: absolute;
+  top: 220%;
+  left: 45%;
+  width: 54%;
+  height: 40%;
+  border: 2px solid #530080;
+  background: #0f0a29;
+  border-radius: 75px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  color: #fdfdfd;
+}
+
+.desenvolvimentodiv{
+  display: none;
+  opacity: 1;
+  transition: opacity .5s linear;
+  position: absolute;
+  top: 261%;
+  right: 0.1%;
+  width: 100%;
+  height: 83%;
+  border: 2px solid #530080;
+  background: #0f0a29;
+  border-radius: 75px;
+  z-index: 1;
+}
 
 /* Botoes dos projetos de desenvolvimento */
 
 
 
-  body #desenvolvi #left-zone .list {
-    display: flex;
-    list-style: none;
-    align-content: stretch;
-    flex-direction: column;
-    flex-grow: 1;
-    margin: 0;
-    padding: 0;
-  }
+body #desenvolvi #left-zone .list {
+  display: flex;
+  list-style: none;
+  align-content: stretch;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+}
 
-  body #desenvolvi #left-zone .list li.item input[type=radio] {
-    display: none;
-  }
+body #desenvolvi #left-zone .list li.item input[type=radio] {
+  display: none;
+}
 
-  body #desenvolvi #left-zone .list li.item input[type=radio] ~ label {
-    display: block;
-    height: 55px;
-    text-align: center;
-    line-height: 50px;
-    cursor: pointer;
-  }
+body #desenvolvi #left-zone .list li.item input[type=radio] ~ label {
+  display: block;
+  height: 55px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+}
 
-  body #desenvolvi #left-zone .list li.item input[type=radio] ~ .div:hover :not(:hover)  {
+body #desenvolvi #left-zone .list li.item input[type=radio] ~ .div:hover :not(:hover)  {
 
-    opacity: 1;
-  }
+  opacity: 1;
+}
 
-  body #desenvolvi #left-zone .list li.item input[type=radio] ~ label :hover {
+body #desenvolvi #left-zone .list li.item input[type=radio] ~ label :hover {
 
-    scale: 1.5;
+  scale: 1.5;
 
-  }
+}
 
-  body #desenvolvi #left-zone .list li.item input[type=radio] ~ .content {
-    position: absolute;
-    top: -900px;
-    left: 37%;
-    height: 700px;
-    width: 720px;
-    -webkit-animation-duration: 0.75s;
-            animation-duration: 0.75s;
-    -webkit-animation-name: slideout;
-            animation-name: slideout;
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
+body #desenvolvi #left-zone .list li.item input[type=radio] ~ .content {
+  position: absolute;
+  top: -900px;
+  left: 37%;
+  height: 700px;
+  width: 720px;
+  -webkit-animation-duration: 0.75s;
+          animation-duration: 0.75s;
+  -webkit-animation-name: slideout;
+          animation-name: slideout;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
-  body #desenvolvi #left-zone .list li.item input[type=radio] ~ .content.urnaeletronica h1,
-  body #desenvolvi #left-zone .list li.item input[type=radio] ~ .content.login h1,
-  body #desenvolvi #left-zone .list li.item input[type=radio] ~ .content.jogo h1,
-  body #desenvolvi #left-zone .list li.item input[type=radio] ~ .content.infrequencia h1 {
-    white-space: nowrap;    
-    margin-top: 3%;
-    color: #530080;
-  }
+body #desenvolvi #left-zone .list li.item input[type=radio] ~ .content.urnaeletronica h1,
+body #desenvolvi #left-zone .list li.item input[type=radio] ~ .content.login h1,
+body #desenvolvi #left-zone .list li.item input[type=radio] ~ .content.jogo h1,
+body #desenvolvi #left-zone .list li.item input[type=radio] ~ .content.infrequencia h1 {
+  white-space: nowrap;    
+  margin-top: 3%;
+  color: #530080;
+}
 
-  body #desenvolvi #left-zone .list li.item input[type=radio] ~ .content p {
-    margin-top: 0.5%;
-    max-width: 70%;
-    text-align: center;
-  }
-  body #desenvolvi #left-zone .list li.item input[type=radio]:checked ~ label {
-    opacity: 1;
-    -webkit-animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-            animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  }
-  body #desenvolvi #left-zone .list li.item input[type=radio]:checked ~ label.label_urna,
-  body #desenvolvi #left-zone .list li.item input[type=radio]:checked ~ label.label_login,
-  body #desenvolvi #left-zone .list li.item input[type=radio]:checked ~ label.label_jogo,
-  body #desenvolvi #left-zone .list li.item input[type=radio]:checked ~ label.label_infrequencia {
-    
-    color: #ffffff;
-    border-right: solid 4px #ffffff;
-  }
+body #desenvolvi #left-zone .list li.item input[type=radio] ~ .content p {
+  margin-top: 0.5%;
+  max-width: 70%;
+  text-align: center;
+}
+body #desenvolvi #left-zone .list li.item input[type=radio]:checked ~ label {
+  opacity: 1;
+  -webkit-animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+body #desenvolvi #left-zone .list li.item input[type=radio]:checked ~ label.label_urna,
+body #desenvolvi #left-zone .list li.item input[type=radio]:checked ~ label.label_login,
+body #desenvolvi #left-zone .list li.item input[type=radio]:checked ~ label.label_jogo,
+body #desenvolvi #left-zone .list li.item input[type=radio]:checked ~ label.label_infrequencia {
   
+  color: #ffffff;
+  border-right: solid 4px #ffffff;
+}
 
-  body #desenvolvi #left-zone .list li.item input[type=radio]:checked ~ .content {
-    -webkit-animation-duration: 0.75s;
-            animation-duration: 0.75s;
-    -webkit-animation-name: slidein;
-            animation-name: slidein;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-    -webkit-animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
-            animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  }
+
+/* Slider---------------------------------------------------------------------------------------*/
+
+/* Slideshow container */
+.content.urnaeletronica .slideshow-container,
+.content.login .slideshow-container,
+.content.jogo .slideshow-container,
+.content.infrequencia .slideshow-container {
   
- /* Slider---------------------------------------------------------------------------------------*/
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides,
+.mySlides1,
+.mySlides2,
+.mySlides3 {
+  display: none;
+}
+
+.content.login .slideshow-container .next{
+
+  cursor: pointer;
+  position: absolute;
+  margin-top: -42%;
+  padding: 16px;
+  color: #46206B;
+  font-weight: normal;
+  font-size: 40px;
+  transition: 0.6s ease;
+  user-select: none;
+  left: 105%;
+  border-radius: 50%;
   
-  /* Slideshow container */
-  .content.urnaeletronica .slideshow-container,
-  .content.login .slideshow-container,
-  .content.jogo .slideshow-container,
-  .content.infrequencia .slideshow-container {
-    
-    position: relative;
-  }
-  
-  /* Hide the images by default */
-  .mySlides,
-  .mySlides1,
-  .mySlides2,
-  .mySlides3 {
-    display: none;
-  }
+} 
 
-  .content.login .slideshow-container .next{
+.content.login .slideshow-container .prev{
+  cursor: pointer;
+  position: absolute;
+  margin-top: -42%;
+  padding: 16px;
+  color: #46206B;
+  font-weight: normal;
+  font-size: 40px;
+  transition: 0.6s ease;
+  user-select: none;
+  right: 105%;
 
-    cursor: pointer;
-    position: absolute;
-    margin-top: -42%;
-    padding: 16px;
-    color: #46206B;
-    font-weight: normal;
-    font-size: 40px;
-    transition: 0.6s ease;
-    user-select: none;
-    left: 105%;
-    border-radius: 50%;
-    
-  } 
- 
-  .content.login .slideshow-container .prev{
-    cursor: pointer;
-    position: absolute;
-    margin-top: -42%;
-    padding: 16px;
-    color: #46206B;
-    font-weight: normal;
-    font-size: 40px;
-    transition: 0.6s ease;
-    user-select: none;
-    right: 105%;
+}
 
-  }
-
-   /* SETAS */
+ /* SETAS */
 .content.urnaeletronica .slideshow-container .prev,
 .content.jogo .slideshow-container .prev,
 .content.infrequencia .slideshow-container .prev {
-     
-     cursor: pointer;
-     position: absolute;
-     margin-top: -29%;
-     padding: 16px;
-     color: #46206B;
-     font-weight: normal;
-     font-size: 40px;
-     transition: 0.6s ease;
-     user-select: none;
-     right: 105%;
-   } 
-  
-  /* Position the "next button" to the right */
+   
+   cursor: pointer;
+   position: absolute;
+   margin-top: -29%;
+   padding: 16px;
+   color: #46206B;
+   font-weight: normal;
+   font-size: 40px;
+   transition: 0.6s ease;
+   user-select: none;
+   right: 105%;
+ } 
+
+/* Position the "next button" to the right */
 .content.urnaeletronica .slideshow-container .next,
 .content.jogo .slideshow-container .next,
 .content.infrequencia .slideshow-container .next {
 
-    cursor: pointer;
-    position: absolute;
-    margin-top: -29%;
-    padding: 16px;
-    color: #46206B;
-    font-weight: normal;
-    font-size: 40px;
-    transition: 0.6s ease;
-    user-select: none;
-    left: 105%;
-    border-radius: 50%;
-  }
-  
-  .content.urnaeletronica .slideshow-container .div:hover :not(:hover),
-  .content.login .slideshow-container .div:hover :not(:hover),
-  .content.jogo .slideshow-container .div:hover :not(:hover),
-  .content.infrequencia .slideshow-container .div:hover :not(:hover) {
-    
-    opacity: 1;
-  
-  }
+  cursor: pointer;
+  position: absolute;
+  margin-top: -29%;
+  padding: 16px;
+  color: #46206B;
+  font-weight: normal;
+  font-size: 40px;
+  transition: 0.6s ease;
+  user-select: none;
+  left: 105%;
+  border-radius: 50%;
+}
 
-  /* On hover, add a black background color with a little bit see-through */
-  .content.urnaeletronica .slideshow-container .prev:hover, 
-  .content.urnaeletronica .slideshow-container .next:hover,
-  .content.login .slideshow-container .prev:hover, 
-  .content.login .slideshow-container .next:hover,
-  .content.jogo .slideshow-container .prev:hover, 
-  .content.jogo .slideshow-container .next:hover,
-  .content.infrequencia .slideshow-container .prev:hover,
-  .content.infrequencia .slideshow-container .next:hover {
-
-    scale: 1.5;
-  }
+.content.urnaeletronica .slideshow-container .div:hover :not(:hover),
+.content.login .slideshow-container .div:hover :not(:hover),
+.content.jogo .slideshow-container .div:hover :not(:hover),
+.content.infrequencia .slideshow-container .div:hover :not(:hover) {
   
-  /* The dots/bullets/indicators */
-  .dot,
-  .dot1,
-  .dot2,
-  .dot3{
+  opacity: 1;
 
-    cursor: pointer;
-    height: 13px;
-    width: 13px;
-    margin: 0 2px;
-    background-color: #AB74E2;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-    margin-top: 4%;
-  }
-  
-  .content.urnaeletronica .bola0 .active, 
-  .content.urnaeletronica .bola0 .dot :hover,
-  .content.login .bola1 .active, 
-  .content.login .bola1 .dot1 :hover,
-  .content.jogo .bola2 .active, 
-  .content.jogo .bola2 .dot2 :hover,
-  .content.infrequencia .bola3 .active, 
-  .content.infrequencia .bola3 .dot3 :hover {
+}
 
-    background-color: #2F1E4A;
-  
-  }
+/* On hover, add a black background color with a little bit see-through */
+.content.urnaeletronica .slideshow-container .prev:hover, 
+.content.urnaeletronica .slideshow-container .next:hover,
+.content.login .slideshow-container .prev:hover, 
+.content.login .slideshow-container .next:hover,
+.content.jogo .slideshow-container .prev:hover, 
+.content.jogo .slideshow-container .next:hover,
+.content.infrequencia .slideshow-container .prev:hover,
+.content.infrequencia .slideshow-container .next:hover {
 
+  scale: 1.5;
+}
+
+/* The dots/bullets/indicators */
+.dot,
+.dot1,
+.dot2,
+.dot3{
+
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #AB74E2;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin-top: 4%;
+}
+
+.content.urnaeletronica .bola0 .active, 
+.content.urnaeletronica .bola0 .dot :hover,
+.content.login .bola1 .active, 
+.content.login .bola1 .dot1 :hover,
+.content.jogo .bola2 .active, 
+.content.jogo .bola2 .dot2 :hover,
+.content.infrequencia .bola3 .active, 
+.content.infrequencia .bola3 .dot3 :hover {
+
+  background-color: #2F1E4A;
+
+}
+
+body #desenvolvi #left-zone .list li.item input[type=radio]:checked ~ .content {
+  -webkit-animation-duration: 0.75s;
+          animation-duration: 0.75s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
 
 
 #img1,
 #img2,
 #img3,
-
 #img7,
 #img8,
 #img9,
@@ -310,17 +308,17 @@
 #img11,
 #img12{
 
-  width: 720px;
-  height: 320px;
-  opacity: 1;
+width: 720px;
+height: 320px;
+opacity: 1;
 }
 
 #img4,
 #img5,
 #img6{
 
-  width: 510px;
-  height: 350px;
-  opacity: 1;
+width: 510px;
+height: 350px;
+opacity: 1;
 
 }
